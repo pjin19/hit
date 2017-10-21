@@ -42,7 +42,7 @@ router.use('/', (req, res) => {
             price: req.query.price,
             categories: req.query.cuisine, // cuisine
             limit: 50,
-            open_now: true,
+            open_now: false,
             radius: req.query.distance, // greater distance < 5000, smaller is < 1500
             attributes: ''
         // categories: 'Mexican'
